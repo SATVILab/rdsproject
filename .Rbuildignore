@@ -1,3 +1,5 @@
+^renv$
+^renv\.lock$
 # ignore CDE and VS Code workspace files
 
 ^\.devcontainer$
@@ -7,3 +9,5 @@
 ^\.gitpod\.yml$
 ^\.Renviron$
 ^EntireProject\.code-workspace$
+^LICENSE\.md$
+^_dependencies\.R$

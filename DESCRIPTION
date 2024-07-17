@@ -1,0 +1,17 @@
+Package: rdsproject
+Title: Catalogue and validate projects on the SATVI research data server
+Version: 0.0.0.9000
+Authors@R: 
+    person("Miguel", "Rodo", , "miguel.rodo@uct.ac.za", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Creates an HTML detailing all the projects, and checks each project
+    for compliance with standards.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    officer
